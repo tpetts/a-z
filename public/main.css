@@ -9,3 +9,13 @@ body.green {
   nav {
     background-color: #372919;
   }
+
+  a.nav-link, a.navbar-brand {
+      color: white;
+  }
+
+  div.card {
+      margin: 16px;
+  }
+
+  
