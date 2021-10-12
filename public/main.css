@@ -1,3 +1,4 @@
+  /* ____________ Body Styles ____________ */
 body.green {
     background-color: #89d8a8;
   }
@@ -5,6 +6,8 @@ body.green {
   body.yellow {
       background-color: #f8d300;
   }
+
+  /* ____________ Navigation Styles ____________ */
 
   nav {
     background-color: #372919;
@@ -14,8 +17,39 @@ body.green {
       color: white;
   }
 
+    /* ____________ Card Styles ____________ */
+
   div.card {
       margin: 16px;
   }
+
+  /* ____________ Sprite Styles ____________ */
+    .social-media-iconsfacebook, .social-media-iconsinstagram, .social-media-iconssnapchat, .social-media-iconstwitter, .social-media-iconsyoutube {
+        display: inline-block; background: url(../img/social-sprite.png) no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;
+    }
+
+    .social-media-iconsfacebook {
+        background-position: -5px -0px; width: 32px; height: 32px;
+    }
+
+    .social-media-iconsinstagram {
+        background-position: -42px -0px; width: 32px; height: 32px;
+    }
+
+    /* .social-media-iconssnapchat {
+        background-position: -5px -37px; width: 32px; height: 32px;
+    }
+
+    .social-media-iconstwitter {
+        background-position: -42px -37px; width: 32px; height: 32px;
+    }
+
+    .social-media-iconsyoutube {
+        background-position: -5px -74px; width: 32px; height: 32px;
+    } */
+
+    div.about {
+        margin: 25px;
+    }
 
   
