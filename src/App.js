@@ -10,7 +10,7 @@ function App() {
     <>
       {/* <AppBar /> */}
       <Header />
-      <Introduction />
+      {/* <Introduction /> */}
 
 
 
